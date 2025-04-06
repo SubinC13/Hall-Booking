@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "376918277043",
+    "firebase_url": "https://aicraisemeet-default-rtdb.firebaseio.com",
+    "project_id": "aicraisemeet",
+    "storage_bucket": "aicraisemeet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376918277043:android:a688bbc055d04c88d229c6",
+        "android_client_info": {
+          "package_name": "com.example.aicmeet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw4vH8KCopod4t7wNOKIVtkDcNwKmTGiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376918277043:android:cb15d025be5acaa0d229c6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw4vH8KCopod4t7wNOKIVtkDcNwKmTGiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

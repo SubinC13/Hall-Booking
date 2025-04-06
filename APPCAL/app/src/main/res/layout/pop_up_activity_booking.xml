@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/popUpScreenLinearLayout"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:padding="16dp"
+    android:background="@drawable/pop_up_screen_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOK HALL"
+        android:fontFamily="@font/loginpagefont"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/companyNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/layout_slot"
+        android:hint="Enter your company name :"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date :"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/loginpagefont"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/dateTextViewBookingForm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:text="DD-MM-YYYY"
+            android:fontFamily="@font/layout_slot" />
+        <Button
+            android:id="@+id/dateSelectorBtn"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:backgroundTint="#0066FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE"
+            android:textColor="@color/white"
+            android:fontFamily="@font/loginpagefont"
+            android:textSize="16dp"
+            android:drawableLeft="@drawable/baseline_date_range_24"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Time:"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/loginpagefont"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/fromTimeTextViewBookingForm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="00:00"
+            android:textSize="17dp"
+            android:fontFamily="@font/layout_slot" />
+        <Button
+            android:id="@+id/fromTimeSelectorBtn"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:backgroundTint="#0066FF"
+            android:fontFamily="@font/loginpagefont"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:drawableLeft="@drawable/baseline_access_time_24"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/loginpagefont"
+        android:text="To Time:" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/toTimeTextViewBookingForm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:text="24:00"
+            android:fontFamily="@font/layout_slot" />
+        <Button
+            android:id="@+id/toTimeSelectorBtn"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:backgroundTint="#0066FF"
+            android:fontFamily="@font/loginpagefont"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:drawableLeft="@drawable/baseline_access_time_24"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonSubmitForm"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/submit_form_logo"
+            android:text="SUBMIT"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/loginpagefont"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#0066FE" />
+        <Button
+            android:id="@+id/buttonCloseForm"
+            android:drawableLeft="@drawable/baseline_cancel_24"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/loginpagefont"
+            android:text="CLOSE"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#0D0D19" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
